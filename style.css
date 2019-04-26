@@ -1,0 +1,169 @@
+.container {
+  font-family: 'Philosopher', sans-serif;
+  border-left: 1px solid sienna;
+  border-right: 1px solid sienna;
+  height: 90vh;
+  margin-top: -10vh;
+  padding-top: 15vh;
+  background-color: azure;
+}
+
+.marge{
+  margin-top: 2vh;
+}
+
+#navbar_quiz {
+  background: darkcyan;
+}
+
+.logo_quiz {
+  height: 50px;
+  position: relative;
+  -webkit-animation: mymove 1.5s;
+  animation: mymove 1.5s;
+}
+
+#title {
+  text-align: center;
+  color: white;
+  position: relative;
+  -webkit-animation: mymove 1s;
+  animation: mymove 1s;
+}
+
+h1 {
+  text-align: center;
+ 
+}
+
+#footer_quiz {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 125px;
+  background-color: darkcyan;
+  text-align: center;
+}
+
+.btn-floating {
+  color: white;
+}
+
+.btn-floating:hover {
+  color: brown;
+}
+
+p {
+  text-align: center;
+}
+.score_point{
+  border: 2px solid darkcyan;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Merienda', sans-serif;
+  color: black;
+  font-size:35px;
+}
+.second_p{
+  color: brown;
+  border: 1px solid darkcyan;
+}
+
+#button_quiz:hover {
+  background-color: darkcyan;
+}
+
+.form-row {
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 75px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#quiz_general {
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.quiz_general {
+  font-family: 'Philosopher', sans-serif;
+}
+
+.row {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.question_general {
+  border: 1px solid darkcyan;
+}
+
+.button_valid {
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  margin-bottom: 10px;
+}
+
+.container1 {
+  font-family: 'Philosopher', sans-serif;
+  width: 60vw;
+}
+
+.card_score{
+  border: 1px solid darkcyan;
+  text-align: center;
+}
+.card-title{
+  font-size:30px;
+  text-decoration: underline;
+}
+.card-text{
+  font-size:25px;
+  font-weight: 700;
+  color: darkred;
+}
+.card-text_valid{
+  font-size:25px;
+  font-weight: 700;
+  color: darkgreen;
+}
+.card-mutetext{
+  font-size: 14px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: none;
+  color: black;
+}
+@keyframes mymove {
+  from {
+    left: 600px;
+  }
+  to {
+    left: 0px;
+  }
+}
